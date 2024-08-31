@@ -1,10 +1,13 @@
 #!/bin/bash
 
-person1=$1
-person2=$2
+echo " please enter your username :: "
 
-read -s $person1 $person2
+read -s username
 
-echo "$person1 :: Hai $person2, How are you doing ? "
-echo "$person2 :: M Good $person1, Thank you!"
-echo "$person2 ::: How are you ?"
+echo " You have entered the username :: $username"
+
+echo " please enter your password :: "
+
+read -s password
+
+echo " You have entered the username :: $password"
